@@ -1,0 +1,10 @@
+brew "git"
+brew "wget"
+brew "tree"
+brew "node"
+brew "uv"
+brew "gum"
+brew "fish"
+
+cask "mac-mouse-fix"
+cask "ghostty"
