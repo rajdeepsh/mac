@@ -30,5 +30,5 @@ git config --global commit.gpgsign true
 git -C $HOME clone git@github.com:rajdeepsh/mac.git
 
 echo
-gum spin --spinner globe --title "Done! Press any key to reboot..." -- bash -c 'read -n 1 -s'
+gum style --foreground 10 "✔ Done! Restarting..."
 sudo shutdown -r now
